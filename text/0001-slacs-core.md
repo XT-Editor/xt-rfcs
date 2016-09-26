@@ -1,7 +1,7 @@
-- Feature Name: slacs_core
+- Feature Name: xtensis_core
 - Start Date: 2016-09-17
 - RFC PR: (leave this empty)
-- slacs Issue: (leave this empty)
+- xtensis Issue: (leave this empty)
 
 # Summary
 
