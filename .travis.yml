@@ -1,9 +1,6 @@
 sudo: false
 language: python
 
-cache:
-  - cargo
-
 install:
   - "script/bootstrap"
   
