@@ -1,5 +1,5 @@
 sudo: false
-language: rust
+language: python
 
 cache:
   - cargo
@@ -12,10 +12,8 @@ script:
 
 after_script:
   - "script/after_cibuild"
+python: '2.7'
   
-rust:
-  - nightly
-
 addons:
   apt:
     packages:
