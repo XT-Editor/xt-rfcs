@@ -1,22 +1,24 @@
-- Feature Name: xtensis_core
-- Start Date: 2016-09-17
+# xtensis - RFC #001
+
+- Feature Name: xtensis-core
+- Start Date: 2016-10-16
 - RFC PR: (leave this empty)
 - xtensis Issue: (leave this empty)
 
-# Summary
+## Summary
 
 [summary]: #summary
 
 One paragraph explanation of the feature.
 
-# Motivation
+## Motivation
 
 [motivation]: #motivation
 
 Why are we doing this? What use cases does it support? What is the
 expected outcome?
 
-# Detailed design
+## Detailed design
 
 [design]: #detailed-design
 
@@ -27,20 +29,20 @@ familiar with the compiler to implement.
 This should get into specifics and corner-cases, and include examples
 of how the feature is used.
 
-# Drawbacks
+## Drawbacks
 
 [drawbacks]: #drawbacks
 
 Why should we *not* do this?
 
-# Alternatives
+## Alternatives
 
 [alternatives]: #alternatives
 
 What other designs have been considered? What is the impact of not
 doing this?
 
-# Unresolved questions
+## Unresolved questions
 
 [unresolved]: #unresolved-questions
 
