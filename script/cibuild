@@ -1,0 +1,17 @@
+#!/bin/bash -e
+
+if [[ -z "${TRAVIS_BUILD_DIR}" ]]; then
+    START_CWD="${PWD}"
+else
+    START_CWD="${TRAVIS_BUILD_DIR}"
+fi
+
+export PATH="$HOME/.local/bin:$PATH"
+
+cd "${START_CWD}" || exit 1
+
+mdl -s mdl-rules.rb
+
+mdspell --en-us -ran "./text/*.md"
+
+exit
