@@ -1,5 +1,8 @@
 #!/bin/bash -e
 
+set -e
+set -o pipefail
+
 if [[ -z "${TRAVIS_BUILD_DIR}" ]]; then
     START_CWD="${PWD}"
 else
@@ -12,6 +15,10 @@ cd "${START_CWD}" || exit 1
 
 mdl -s mdl-rules.rb .
 
-mdspell --en-us -ran "./text/*.md"
+MD_FILES=($(find ./ -type f -iname "*.md"))
+
+for f in "${MD_FILES[@]}"; do
+    mdspell --en-us -ran "$f"
+done
 
 exit
