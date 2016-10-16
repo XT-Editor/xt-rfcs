@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash
 
 set -e
 set -o pipefail
@@ -8,8 +8,6 @@ if [[ -z "${TRAVIS_BUILD_DIR}" ]]; then
 else
     START_CWD="${TRAVIS_BUILD_DIR}"
 fi
-
-export PATH="$HOME/.local/bin:$PATH"
 
 cd "${START_CWD}" || exit 1
 
