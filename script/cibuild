@@ -10,7 +10,7 @@ export PATH="$HOME/.local/bin:$PATH"
 
 cd "${START_CWD}" || exit 1
 
-mdl -s mdl-rules.rb
+mdl -s mdl-rules.rb .
 
 mdspell --en-us -ran "./text/*.md"
 
