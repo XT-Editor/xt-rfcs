@@ -1,7 +1,5 @@
 #!/bin/bash -e
 
-pip install --user -U markdown
-
 npm install -g markdown-spellcheck
 
 gem install mdl
