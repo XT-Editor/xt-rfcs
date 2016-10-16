@@ -10,8 +10,6 @@ install:
 script:
   - "script/cibuild"
 
-after_script:
-  - "script/after_cibuild"
 python: '2.7'
   
 addons:
