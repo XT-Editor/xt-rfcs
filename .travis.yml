@@ -27,7 +27,7 @@ notifications:
   irc:
     channels:
       - "chat.freenode.net#xtensis-editor"
-    nick: xtensis-travis
+    nick: xtensis-rfcs
     on_success: always
     on_failure: always
     use_notice: false
