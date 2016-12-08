@@ -30,5 +30,5 @@ notifications:
     nick: xtensis-travis
     on_success: false
     on_failure: always
-    use_notice: false
+    use_notice: true
     skip_join: false
