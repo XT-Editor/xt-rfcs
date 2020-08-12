@@ -1,7 +1,0 @@
-#!/bin/bash -e
-
-npm install -g markdown-spellcheck
-
-gem install mdl
-
-exit
